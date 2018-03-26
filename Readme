@@ -1,0 +1,31 @@
+This is the repository for Virtual Library Management application applying concepts like Templates, Operator overloading, mutators, accessors, and constructors built in Visual Studio environment in C++ language.
+	
+The idea was to create a Library Management system, that you could login irrespective of whether you are a librarian, teacher or a student.
+The heirarchy follows like Users login where of two types : 1. Librarian and 2. Readers
+Readers were again of two types: 1. Teacher and 2. Student
+
+Based on which, I have implemented User.h, User.cpp, Librarian.h, Librarian.cpp, Reader.cpp, Reader.h, Teacher.cpp, Teacher.h, Student.cpp, Student.h, Book.h, and Book.cpp.
+All the entries are stored in dat files for book, copy, reader and librarian. 
+
+Also, a seperate class for maintaining book records that inherits book and copies the content for book detials, like Author, ISBN no., Category and availiibilty status in Real-time.
+
+A librarian could add new user and books, after entering the details, and also virtually manage the deposit and retrivals of book. Based on the time set for return of books, based on popularity (decided by number of requests) and calculate the fine charge for depositing the book late.
+
+Copy book function creates a new book with same details, to make entry for a new book, with different version or so.
+
+Implemented operator overloading, to implement input and output to and from input/output file. Also, to check if two user, and two books are same or not.
+
+To Run:
+
+1. Simply set the environment in Visual studio. 
+2. Import files as reference files and header files seperately.
+3. Run the project, make entries into the cmd window temrinal and view the output.
+
+Thanks!
+
+
+
+
+
+
+
